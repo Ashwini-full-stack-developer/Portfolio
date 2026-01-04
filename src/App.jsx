@@ -6,6 +6,7 @@ import Education from './comp/Education'
 import Certification from './comp/Certification'
 import Footer from './comp/Footer'
 
+import Profile_picture1 from './assets/Profile_picture1.jpg'
 import Profile_picture from './assets/Profile_picture.png'
 import Ashwini_Resume from './assets/AshwiniG_Resumes_UP.pdf'
 
@@ -28,7 +29,7 @@ function App() {
       <div className="project-container profile-section">
         <div id='Content' className="profile-content">
           <h1 id='cursiveText' className="profile-name">Ashwini G</h1>
-          <h2 className="profile-role"><em>I am Full-Stack Developer , Gen-AI Developer @ <b>Almawiz Technology</b></em></h2>
+          <h2 className="profile-role"><em>I am Junior Product Engineer @ <b>Almawiz Technology</b></em></h2>
           <p className="profile-bio">I believe that Working smart doesn't mean working less. It means Working hard on what truly matters. Passionate Full-Stack Developer with strong problem-solving abilities and leadership skills.  Dedicated to creating efficient, user-friendly, and scalablesoftware solutions.</p>
           <div className="ContactWays">
             <a className="social-icon" href="https://www.linkedin.com/in/ashwini-g-0866a0275/">
@@ -44,7 +45,9 @@ function App() {
           </div>
         </div>
 
-        <img src={Profile_picture} className="profile-picture" alt="Profile Picture" />
+        <div className="profile-picture-wrapper">
+          <img src={Profile_picture1} className="profile-picture" alt="Profile Picture" />
+        </div>
       </div>
 
       <div className="section-title" id='TitalSkill'>Skills</div>

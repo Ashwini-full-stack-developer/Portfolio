@@ -16,7 +16,7 @@ export default function Projects() {
     {
       title: "Hackathon GenAI Chatbot",
       description: " Developed an AI-powered registration chatbot for university hackathons, leveraging Generative AI to streamline the participant enrollment process through a natural, conversational interface.",
-      link: null // No link provided in original code
+      link: null 
     },
     {
       title: "CandyMan Project",
